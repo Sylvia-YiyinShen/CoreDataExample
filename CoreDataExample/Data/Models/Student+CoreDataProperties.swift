@@ -20,7 +20,7 @@ extension Student {
     @NSManaged public var course: String?
     @NSManaged public var studentId: String?
     @NSManaged public var name: String?
-
+    @NSManaged public var memberCard: MemberCard?
 }
 
 extension Student {
@@ -29,5 +29,6 @@ extension Student {
         self.studentId = id
         self.name = name
         self.course = course
+        self.memberCard = MemberCard(cardId: UUID().uuidString, context: context)
     }
 }

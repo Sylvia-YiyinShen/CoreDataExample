@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         let students: [Student]? = CoreDataManager.fetchStudent()
         print("=================================")
         students?.forEach({ (student) in
-            print("Student: \(student.studentId ?? "") \(student.name ?? "") \(student.course ?? "")")
+            print("Student: \(student.studentId ?? "") \(student.name ?? "") \(student.course ?? "")  \(student.memberCard?.cardId ?? "no member card")")
         })
         print("=================================")
     }

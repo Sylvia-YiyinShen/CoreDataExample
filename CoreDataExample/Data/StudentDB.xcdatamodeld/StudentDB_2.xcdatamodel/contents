@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MemberCard" representedClassName="MemberCard" syncable="YES">
+        <attribute name="cardId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <entity name="Student" representedClassName="Student" syncable="YES">
         <attribute name="course" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="studentId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="memberCard" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MemberCard" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Student" positionX="-54" positionY="-9" width="128" height="90"/>
+        <element name="Student" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="MemberCard" positionX="-54" positionY="18" width="128" height="60"/>
     </elements>
 </model>
