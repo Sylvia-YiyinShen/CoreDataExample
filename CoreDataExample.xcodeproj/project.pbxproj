@@ -16,6 +16,7 @@
 		D93E9E63226423D7006EA414 /* StudentDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D93E9E61226423D7006EA414 /* StudentDB.xcdatamodeld */; };
 		D95136002264262D00BDCDC1 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95135FE2264262D00BDCDC1 /* Student+CoreDataClass.swift */; };
 		D95136012264262D00BDCDC1 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95135FF2264262D00BDCDC1 /* Student+CoreDataProperties.swift */; };
+		D9D2073022643B940018D395 /* StudentDB.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = D9D2072F22643B940018D395 /* StudentDB.xcmappingmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		D93E9E62226423D7006EA414 /* StudentDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentDB.xcdatamodel; sourceTree = "<group>"; };
 		D95135FE2264262D00BDCDC1 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D95135FF2264262D00BDCDC1 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D9D2072E226438B00018D395 /* StudentDB_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentDB_2.xcdatamodel; sourceTree = "<group>"; };
+		D9D2072F22643B940018D395 /* StudentDB.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = StudentDB.xcmappingmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 				D93E9E3A22640372006EA414 /* Models */,
 				D93E9E5C22640F0D006EA414 /* CoreDataManager.swift */,
 				D93E9E61226423D7006EA414 /* StudentDB.xcdatamodeld */,
+				D9D2072F22643B940018D395 /* StudentDB.xcmappingmodel */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -165,6 +169,7 @@
 			files = (
 				D95136012264262D00BDCDC1 /* Student+CoreDataProperties.swift in Sources */,
 				D93E9E5D22640F0D006EA414 /* CoreDataManager.swift in Sources */,
+				D9D2073022643B940018D395 /* StudentDB.xcmappingmodel in Sources */,
 				D93E9E2322640211006EA414 /* ViewController.swift in Sources */,
 				D93E9E2122640211006EA414 /* AppDelegate.swift in Sources */,
 				D93E9E63226423D7006EA414 /* StudentDB.xcdatamodeld in Sources */,
@@ -377,9 +382,10 @@
 		D93E9E61226423D7006EA414 /* StudentDB.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				D9D2072E226438B00018D395 /* StudentDB_2.xcdatamodel */,
 				D93E9E62226423D7006EA414 /* StudentDB.xcdatamodel */,
 			);
-			currentVersion = D93E9E62226423D7006EA414 /* StudentDB.xcdatamodel */;
+			currentVersion = D9D2072E226438B00018D395 /* StudentDB_2.xcdatamodel */;
 			path = StudentDB.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
